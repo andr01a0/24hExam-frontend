@@ -48,7 +48,7 @@ export default async () => {
         }).then(response => response.json()).then(response => {
           if(response.message != undefined)
             alert(response.message);
-        });;
+        });
         return;
       }
   },
